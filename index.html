@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+
+  <title>ChaiTailwind</title>
+</head>
+<body>
+
+  <header
+    class="
+      chai-flex
+      chai-justify-between
+      chai-items-center
+      chai-p-20
+      chai-bg-black
+      chai-text-white
+    "
+  >
+
+    <h1 class="chai-fs-32 chai-fw-700">
+      ChaiTailwind ☕
+    </h1>
+
+    <nav class="chai-flex chai-gap-20">
+      <a href="#">Home</a>
+      <a href="#">Docs</a>
+      <a href="#">GitHub</a>
+    </nav>
+
+  </header>
+
+  <main class="container chai-py-40">
+
+    <section
+      class="
+        card
+        chai-mb-30
+      "
+    >
+
+      <h2
+        class="
+          chai-fs-48
+          chai-fw-700
+          chai-mb-20
+        "
+      >
+        Build Utility CSS Using JavaScript
+      </h2>
+
+      <p
+        class="
+          chai-fs-18
+          chai-text-gray
+          chai-lh-1.8
+          chai-mb-20
+        "
+      >
+        ChaiTailwind dynamically scans the DOM,
+        parses utility classes, and applies inline styles.
+      </p>
+
+      <button
+        class="
+          chai-bg-blue
+          chai-text-white
+          chai-px-20
+          chai-py-12
+          chai-rounded-12
+          chai-pointer
+          chai-shadow
+        "
+      >
+        Get Started
+      </button>
+
+    </section>
+
+    <section
+      class="
+        chai-grid
+        chai-grid-cols-3
+        chai-gap-20
+      "
+    >
+
+      <div class="card">
+        <h3 class="chai-fs-24 chai-fw-700 chai-mb-10">
+          Fast
+        </h3>
+
+        <p class="chai-text-gray">
+          Runtime utility generation.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="chai-fs-24 chai-fw-700 chai-mb-10">
+          Reactive
+        </h3>
+
+        <p class="chai-text-gray">
+          Powered by MutationObserver.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3 class="chai-fs-24 chai-fw-700 chai-mb-10">
+          Modular
+        </h3>
+
+        <p class="chai-text-gray">
+          Scalable utility architecture.
+        </p>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+
+</body>
+</html>
