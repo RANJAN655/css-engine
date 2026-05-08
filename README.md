@@ -6,7 +6,7 @@ ChaiTailwind dynamically scans the DOM, parses utility classes, and applies inli
 
 ---
 
-# ✨ Features
+# ✨ Features ||
 
 * Utility-first class system
 * Runtime CSS generation
@@ -275,4 +275,4 @@ MIT License
 
 # 👨‍💻 Author
 
-Ranjan Nayak
+Ranjan Kumar Nayak
